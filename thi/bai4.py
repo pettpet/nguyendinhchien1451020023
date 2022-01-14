@@ -10,7 +10,7 @@ id=input("nhập id: ")
 print("ten va id: ",name+id)
 
 #phân tách bằng dấu ","
-l=(name+id).split(",")
+l=(name).split(",")+(id).split(",")
 
 
 #tạo 1 tuple rỗng
