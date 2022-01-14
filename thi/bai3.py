@@ -13,14 +13,17 @@ def ho_ten(number):
 ten = input("tên: ")
 dem=input("tên đệm: ")
 ho=input("họ: ")
+
+
+
 #đếm
-dem1=len(ten)
-dem2=len(dem)
-dem3=len(ho)
+dem1=str(len(ho))
+dem2=str(len(dem))
+dem3=str(len(ten))
 number=dem1+dem2+dem3
 
 #in ra màn hình
-print("họ tên đầy đủ; ",ten +" "+dem+" " + ho)
+print("họ tên đầy đủ; ",ho +" "+dem+" " + ten)
 print(number ,"là",ho_ten(number))
 
 
